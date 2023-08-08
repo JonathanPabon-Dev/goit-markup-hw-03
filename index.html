@@ -13,31 +13,35 @@
     <title>WebStudio - Home</title>
   </head>
   <body>
-    <header class="header container">
-      <nav class="navbar">
-        <a class="logo" href="./index.html">WebStudio</a>
-        <ul class="navbar-list list">
-          <li class="navbar-item"><a class="link active" href="./index.html">Estudio</a></li>
-          <li class="navbar-item"><a class="link" href="./portfolio.html">Portafolio</a></li>
-          <li class="navbar-item"><a class="link" href="#">Contactos</a></li>
+    <header class="header">
+      <div class="container">
+        <nav class="navbar">
+          <a class="logo" href="./index.html">WebStudio</a>
+          <ul class="navbar-list list">
+            <li class="navbar-item"><a class="link active" href="./index.html">Estudio</a></li>
+            <li class="navbar-item"><a class="link" href="./portfolio.html">Portafolio</a></li>
+            <li class="navbar-item"><a class="link" href="#">Contactos</a></li>
+          </ul>
+        </nav>
+        <ul class="navbar-list list contacts">
+          <li class="navbar-item">
+            <a class="link contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="navbar-item">
+            <a class="link contact" href="tel:+525555296000">+52 55 5529 6000</a>
+          </li>
         </ul>
-      </nav>
-      <ul class="navbar-list list contacts">
-        <li class="navbar-item">
-          <a class="link contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li class="navbar-item">
-          <a class="link contact" href="tel:+525555296000">+52 55 5529 6000</a>
-        </li>
-      </ul>
+      </div>
     </header>
     <main class="main">
-      <section class="hero container section">
-        <h1 class="hero-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-        <button class="btn-hero btn active" type="button">Solicite nuestro servicio</button>
+      <section class="hero section">
+        <div class="container">
+          <h1 class="hero-title">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+          <button class="btn-hero btn active" type="button">Solicite nuestro servicio</button>
+        </div>
       </section>
-      <section class="targets container section">
-        <ul class="targets-list list">
+      <section class="targets section">
+        <ul class="targets-list list container">
           <li class="target-item">
             <h3 class="target-title">ATENCIÓN A LOS DETALLES</h3>
             <p class="target-description">
@@ -68,83 +72,89 @@
           </li>
         </ul>
       </section>
-      <section class="services container section">
-        <h2 class="services-title">A qué nos dedicamos</h2>
-        <ul class="services-list list">
-          <li class="service-item">
-            <img src="./images/logic.jpg" alt="Programación lógica" width="370px" />
-          </li>
-          <li class="service-item">
-            <img src="./images/mobile-app.jpg" alt="Aplicaciones móviles" width="370px" />
-          </li>
-          <li class="service-item">
-            <img src="./images/colours-palette.jpg" alt="Paleta de colores" width="370px" />
-          </li>
-        </ul>
+      <section class="services section">
+        <div class="container">
+          <h2 class="services-title">A qué nos dedicamos</h2>
+          <ul class="services-list list">
+            <li class="service-item">
+              <img src="./images/logic.jpg" alt="Programación lógica" width="370px" />
+            </li>
+            <li class="service-item">
+              <img src="./images/mobile-app.jpg" alt="Aplicaciones móviles" width="370px" />
+            </li>
+            <li class="service-item">
+              <img src="./images/colours-palette.jpg" alt="Paleta de colores" width="370px" />
+            </li>
+          </ul>
+        </div>
       </section>
-      <section class="team container section">
-        <h2 class="team-title">Nuestro Equipo</h2>
-        <ul class="team-list list">
-          <li class="team-member">
-            <img
-              class="member-photo"
-              src="./images/andres-cubo.jpg"
-              alt="Andrés Cubo"
-              width="270px"
-              height="260px"
-            />
-            <h3 class="member-name">Andrés Cubo</h3>
-            <p class="member-job">Diseñador de Productos</p>
-          </li>
-          <li class="team-member">
-            <img
-              class="member-photo"
-              src="./images/carla-palacios.jpg"
-              alt="Carla Palacios"
-              width="270px"
-              height="260px"
-            />
-            <h3 class="member-name">Carla Palacios</h3>
-            <p class="member-job">Desarrolladora Frontend</p>
-          </li>
-          <li class="team-member">
-            <img
-              class="member-photo"
-              src="./images/mario-dorado.jpg"
-              alt="Mario Dorado"
-              width="270px"
-              height="260px"
-            />
-            <h3 class="member-name">Mario Dorado</h3>
-            <p class="member-job">Marketing</p>
-          </li>
-          <li class="team-member">
-            <img
-              class="member-photo"
-              src="./images/pablo-mijangos.jpg"
-              alt="Pablo Mijangos"
-              width="270px"
-              height="260px"
-            />
-            <h3 class="member-name">Pablo Mijangos</h3>
-            <p class="member-job">Diseñador IU</p>
-          </li>
-        </ul>
+      <section class="team section">
+        <div class="container">
+          <h2 class="team-title">Nuestro Equipo</h2>
+          <ul class="team-list list">
+            <li class="team-member">
+              <img
+                class="member-photo"
+                src="./images/andres-cubo.jpg"
+                alt="Andrés Cubo"
+                width="270px"
+                height="260px"
+              />
+              <h3 class="member-name">Andrés Cubo</h3>
+              <p class="member-job">Diseñador de Productos</p>
+            </li>
+            <li class="team-member">
+              <img
+                class="member-photo"
+                src="./images/carla-palacios.jpg"
+                alt="Carla Palacios"
+                width="270px"
+                height="260px"
+              />
+              <h3 class="member-name">Carla Palacios</h3>
+              <p class="member-job">Desarrolladora Frontend</p>
+            </li>
+            <li class="team-member">
+              <img
+                class="member-photo"
+                src="./images/mario-dorado.jpg"
+                alt="Mario Dorado"
+                width="270px"
+                height="260px"
+              />
+              <h3 class="member-name">Mario Dorado</h3>
+              <p class="member-job">Marketing</p>
+            </li>
+            <li class="team-member">
+              <img
+                class="member-photo"
+                src="./images/pablo-mijangos.jpg"
+                alt="Pablo Mijangos"
+                width="270px"
+                height="260px"
+              />
+              <h3 class="member-name">Pablo Mijangos</h3>
+              <p class="member-job">Diseñador IU</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
-    <footer class="footer container">
-      <a class="logo" href="./index.html">WebStudio</a>
-      <address class="address">
-        <ul class="address-list list">
-          <li class="address-item">Calz. Ticomán 500, Ciudad de México, CDMX, México</li>
-          <li class="address-item">
-            <a class="address-link link" href="mailto:info@example.com">info@example.com</a>
-          </li>
-          <li class="address-item">
-            <a class="address-link link" href="tel:+525555296000">+52 55 5529 6000</a>
-          </li>
-        </ul>
-      </address>
+    <footer class="footer">
+      <div class="container">
+        <a class="logo" href="./index.html">WebStudio</a>
+        <address class="address">
+          <ul class="address-list list">
+            <li class="address-item">Calz. Ticomán 500, Ciudad de México, CDMX, México</li>
+            <li class="address-item">
+              <a class="address-link link" href="mailto:info@example.com">info@example.com</a>
+            </li>
+            <li class="address-item">
+              <a class="address-link link" href="tel:+525555296000">+52 55 5529 6000</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
