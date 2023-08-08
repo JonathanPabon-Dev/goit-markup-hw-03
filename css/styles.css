@@ -170,13 +170,15 @@ body {
   padding-bottom: 0;
 }
 
-.targets-list {
+.targets-list,
+.services-list {
   display: flex;
+  justify-content: center;
+  gap: 30px;
 }
 
 .target-item {
   width: 270px;
-  margin: 0 15px;
 }
 
 .target-title {
@@ -203,7 +205,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-.services-list,
 .team-list {
   display: flex;
   justify-content: space-between;
@@ -286,13 +287,13 @@ body {
 
 .portfolio-list {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 30px;
 }
 
 .portfolio-card {
   box-sizing: border-box;
-  margin-bottom: 30px;
   width: 370px;
   border: 1px solid #eee;
   cursor: pointer;
